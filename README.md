@@ -1,6 +1,6 @@
 # mm_phonenumber_swift
 
-[![CI Status](http://img.shields.io/travis/wailynnzaw/mm_phonenumber_swift.svg?style=flat)](https://travis-ci.org/wailynnzaw/mm_phonenumber_swift)
+[![CI Status](http://img.shields.io/travis/wailynn-wlz/mm_phonenumber_swift.svg?style=flat)](https://travis-ci.org/wailynn-wlz/mm_phonenumber_swift)
 [![Version](https://img.shields.io/cocoapods/v/mm_phonenumber_swift.svg?style=flat)](http://cocoapods.org/pods/mm_phonenumber_swift)
 [![License](https://img.shields.io/cocoapods/l/mm_phonenumber_swift.svg?style=flat)](http://cocoapods.org/pods/mm_phonenumber_swift)
 [![Platform](https://img.shields.io/cocoapods/p/mm_phonenumber_swift.svg?style=flat)](http://cocoapods.org/pods/mm_phonenumber_swift)
