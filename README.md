@@ -5,9 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/mm_phonenumber_swift.svg?style=flat)](http://cocoapods.org/pods/mm_phonenumber_swift)
 [![Platform](https://img.shields.io/cocoapods/p/mm_phonenumber_swift.svg?style=flat)](http://cocoapods.org/pods/mm_phonenumber_swift)
 
-## Example
+## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+import mm_phonenumber_swift
+
+PhoneValidator.isValidMMPhoneNumber(phoneNumber: "<your phone number>")
+        
+PhoneValidator.sanitizeNumber(phoneNumber: "<your phone number>")
+      
+PhoneValidator.getTelecomName(phoneNumber: "<your phone number>")
+
+PhoneValidator.getNetworkType(phoneNumber: "<your phne number>")
+```
 
 ## Requirements
 
@@ -22,7 +32,7 @@ pod 'mm_phonenumber_swift'
 
 ## Author
 
-wailynnzaw, wailynnzaw@owaytrip.com
+wailynnzaw.lamz@gmail.com
 
 ## License
 
