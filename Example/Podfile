@@ -1,0 +1,6 @@
+use_frameworks!
+target 'mm_phonenumber_swift_Tests' do
+  pod 'mm_phonenumber_swift', :path => '../'
+  
+  
+end
