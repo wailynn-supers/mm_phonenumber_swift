@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 PHP port of mm_phonenumber to check valid myanmar mobile numbers, get mobile operator's name, sanitize mobile numbers and get mobile network types.
                        DESC
 
-  s.homepage         = 'https://github.com/wailynnzaw/mm_phonenumber_swift'
+  s.homepage         = 'https://github.com/wailynn-wlz/mm_phonenumber_swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wailynnzaw' => 'wailynnzaw@owaytrip.com' }
-  s.source           = { :git => 'https://github.com/wailynnzaw/mm_phonenumber_swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wailynn-wlz/mm_phonenumber_swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/wailynnzaw'
 
   s.ios.deployment_target = '8.0'
