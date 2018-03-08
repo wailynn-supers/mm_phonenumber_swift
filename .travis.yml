@@ -10,4 +10,4 @@ xcode_sdk: iphonesimulator11.0
 
 script:
 - pod lib lint
-- xcodebuild test -enableCodeCoverage YES -workspace Example/mm_phonenumber_swift.xcworkspace -scheme mm_phonenumber_swift-Example -sdk iphonesimulator11.2 -destination 'platform=iOS Simulator,name=iPhone 7' test-without-building
+- xcodebuild test -enableCodeCoverage YES -workspace Example/mm_phonenumber_swift.xcworkspace -scheme mm_phonenumber_swift-Example -sdk iphonesimulator11.0 -destination 'platform=iOS Simulator,name=iPhone 7' test-without-building
