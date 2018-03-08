@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mm_phonenumber_swift'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of mm_phonenumber_swift.'
+  s.version          = '1.0.0'
+  s.summary          = 'A swift port of mm_phonenumber validator'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+PHP port of mm_phonenumber to check valid myanmar mobile numbers, get mobile operator's name, sanitize mobile numbers and get mobile network types.
                        DESC
 
   s.homepage         = 'https://github.com/wailynnzaw/mm_phonenumber_swift'
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wailynnzaw' => 'wailynnzaw@owaytrip.com' }
   s.source           = { :git => 'https://github.com/wailynnzaw/mm_phonenumber_swift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/wailynnzaw'
 
   s.ios.deployment_target = '8.0'
 
