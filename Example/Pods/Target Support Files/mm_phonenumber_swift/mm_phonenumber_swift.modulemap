@@ -1,0 +1,6 @@
+framework module mm_phonenumber_swift {
+  umbrella header "mm_phonenumber_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

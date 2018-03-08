@@ -15,7 +15,24 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        XCTAssertTrue(PhoneValidator.isValidMMPhoneNumber(phoneNumber: "+95-9 9 73771507"))
+        
+        XCTAssertEqual(PhoneValidator.sanitizeNumber(phoneNumber: "+9595099 73771507"), "+959973771507")
+        
+        XCTAssertEqual(PhoneValidator.getTelecomName(phoneNumber: "09972334567"), OOREDOO)
+        
+        XCTAssertEqual(PhoneValidator.getTelecomName(phoneNumber: "09798111234"), TELENOR)
+        
+        XCTAssertEqual(PhoneValidator.getTelecomName(phoneNumber: "095511234"), MPT)
+        
+        XCTAssertEqual(PhoneValidator.getTelecomName(phoneNumber: "09254344567"), MPT)
+        
+        XCTAssertEqual(PhoneValidator.getTelecomName(phoneNumber: "0943152345"), MPT)
+        
+        XCTAssertEqual(PhoneValidator.getNetworkType(phoneNumber: "0943152345"), GSM_TYPE)
+        XCTAssertEqual(PhoneValidator.getNetworkType(phoneNumber: "09254344567"), WCDMA_TYPE)
+        XCTAssertEqual(PhoneValidator.getNetworkType(phoneNumber: "0973204356"), CDMA_800_TYPE)
+        
     }
     
     func testPerformanceExample() {

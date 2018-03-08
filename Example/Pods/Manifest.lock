@@ -1,0 +1,16 @@
+PODS:
+  - mm_phonenumber_swift (0.1.0)
+
+DEPENDENCIES:
+  - mm_phonenumber_swift (from `../`)
+
+EXTERNAL SOURCES:
+  mm_phonenumber_swift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  mm_phonenumber_swift: 8ac3e7b22e73b012cf1ab99af01637020ded2cd5
+
+PODFILE CHECKSUM: 08bd0785b24c3f04b1c96d20bf2577456cdc5854
+
+COCOAPODS: 1.3.1
